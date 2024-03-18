@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header part 1 */
+
+.ha{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-phone{
+    color: white;
+}
+
+.phone a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.list ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+@media only screen and (max-width:600px){
+    .ha{
+        display: none;
+    }
+    .phone1{
+        display: none;
+    }
+    .navigation img{
+        width: 90px;
+    }
+    #lo{
+        max-height: 40px;
+        width: 50px;
+    }
+}
+
+/*  header part 2 */
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.phone1 i{
+    color: black;
+}
+
+.phone1 a{
+    color: black;
+    text-decoration: none;
+    display: grid;
+}
+.nu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 30%;
+    background: white;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/*  body styling code start here */
+
+.slide{
+    width: 100%;
+    background: url(https://giffiles.alphacoders.com/212/212790.gif);
+    background-position: center;
+    background-size: cover;
+    height: 57vh;
+}
+
+#ph{
+    color: black;
+}
+
+.pa{
+    font-size: 19px;
+    font-style: italic;
+}
+
+.containerraj{
+    border: 2px solid black;
+    width: 278px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 3px 4px 4px black;
+}
+.containerraj a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.location1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.location2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h{
+    color: orangered;
+    font-weight: bold;
+    font-size: 26px;
+}
+.h22{
+    color: orangered;
+    font-weight: bold;
+    font-size: 26px;
+}
+.pp{
+   margin-left: 50px;
+   margin-right: 50px;
+   font-size: 20px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+@media only screen and (max-width:1100px){
+    .containerraj{
+        border: 2px solid black;
+        width: 185px;
+        height: 190px;
+        background-color: white;
+        box-shadow: 3px 4px 4px black;
+    }
+    .containerraj a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 9px;
+        margin-bottom: 7px;
+        padding: 15px;
+    }
+    .containerraj img{
+        width: 180px;
+        height: 140px;
+    }
+    #ho, #us, #lap, #im, #ph{
+        display: none;
+    }
+}
+@media only screen and (max-width:753px){
+    .containerraj{
+        border: 2px solid black;
+        width: 150px;
+        height: 160px;
+        background-color: white;
+        box-shadow: 3px 4px 4px black;
+    }
+    .containerraj a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 9px;
+        margin-bottom: 7px;
+        padding: 15px;
+    }
+    .containerraj img{
+        width: 146px;
+        height: 120px;
+    }
+    .slide{
+        height: 20vh;
+    }
+}
+@media only screen and (max-width:896px){
+    .nav ul li a{
+        font-size: 17px;
+        padding: 2px;
+    }
+    .about, .customer, h3, ul li, a{
+        font-size: 14px;
+        padding: 10px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media only screen and (max-width:600px){
+    .location{
+        display: grid;
+    }
+    .location1{
+        display: grid;
+    }
+    .location2{
+        display: grid;
+    }
+    .pp{
+        font-size: 13px;
+    }
+    .pa{
+        font-size: 11px;
+        font-style: italic;
+    }
+    .nav ul li a{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .containerraj{
+        border: 2px solid black;
+        width: 325px;
+        height: 240px;
+        background-color: white;
+        box-shadow: 3px 4px 4px black;
+    }
+    .containerraj a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 10px;
+        padding: 30px;
+    }
+    .containerraj img{
+        width: 322px;
+        height: 180px;
+    }
+}
+@media only screen and (max-width:450px){
+    .nav ul li a{
+        font-size: 9px;
+    }
+    .containerraj a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 17px;
+        margin-bottom: 7px;
+        padding: 15px;
+    }
+}
+
+/*  footer code start here */
+
+footer{
+    background-color: #333;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.needhelp h3{
+    color: white;
+    padding: 10px;
+}
+.needhelp p{
+    color: white;
+    padding: 10px;
+}
+.needhelp a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about, .customer, h3, ul li, a{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.follo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.fa-facebook{
+    color: white;
+    background-color: rgb(71, 135, 218);
+    padding: 10px;
+    border-radius: 45%;
+}
+
+.fa-whatsapp{
+    color: white;
+    background-color: rgb(90, 192, 40);
+    padding: 10px;
+    border-radius: 45%;
+}
+
+.fa-instagram{
+    color: white;
+    background-color: rgb(217, 33, 165);
+    padding: 10px;
+    border-radius: 45%;
+}
+.fa-linkedin{
+    color: white;
+    background-color: rgb(74, 13, 172);
+    padding: 10px;
+    border-radius: 45%;
+}
+
+.copycredit, h3{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+@media only screen and (max-width:1000px){
+    .phone1{
+        display: none;
+    }
+    .flex{
+        display: grid;
+    }
+    .attri{
+        font-size: 8px;
+    }
+}
+
+.view{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 0);
+}
+.view:hover{
+    background-color: orange;
+}
+/* main page code complete */
