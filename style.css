@@ -596,7 +596,7 @@ footer{
         font-size: 80%;
     }
 }
-@media only screen and (max-width:850px){
+@media only screen and (max-width:990px){
     .needhelp h3{
         font-size: 90%;
     }
